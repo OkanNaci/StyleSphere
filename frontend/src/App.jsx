@@ -1,6 +1,14 @@
-import "./App.css";
-function App() {
-  return <div className="bg-red-800">Hello World</div>;
-}
+import { BrowserRouter } from "react-router-dom";
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route>{/*User Layout */}</Route>
+        <Route>{/*Admin Layout */}</Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
 export default App;
